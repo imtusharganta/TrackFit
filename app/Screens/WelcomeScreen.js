@@ -32,7 +32,6 @@ const styles = StyleSheet.create({
     title: {
         color: 'white',
         fontSize: 80,
-        fontFamily:'Helvetica',
         position: 'absolute',
         top: 300,
     },
