@@ -10,6 +10,7 @@ function WelcomeScreen(props) {
        </View>
     );
 }
+//container for the background
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -17,13 +18,14 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
-
+//this is for the "your personal fitness journal"
     motto: {
         color: 'white',
         fontSize: 20,
         top: 50,
     },
 
+//this is for the name of the app
     title: {
         color: 'white',
         fontSize: 80,
