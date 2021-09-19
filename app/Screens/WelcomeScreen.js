@@ -2,12 +2,14 @@
 import React from 'react';
 import {StatusBar} from 'expo-status-bar';
 import {StyleSheet, Text, View} from 'react-native'
+import {useFonts} from 'expo-font'
 
 function WelcomeScreen(props) {
     return (
        <View style={styles.container}>
            <Text style={styles.title}>TrackFit</Text>
            <Text style={styles.motto}>Your Personal Fitness Journal</Text>
+           <StatusBar style = 'light'/>
        </View>
     );
 }
@@ -30,6 +32,7 @@ const styles = StyleSheet.create({
     title: {
         color: 'white',
         fontSize: 80,
+        fontFamily:'Helvetica',
         position: 'absolute',
         top: 300,
     },
