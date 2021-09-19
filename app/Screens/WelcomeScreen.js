@@ -1,4 +1,4 @@
-//Hello this is Tushar.
+
 import React from 'react';
 import {StatusBar} from 'expo-status-bar';
 import {StyleSheet, Text, View} from 'react-native'
@@ -7,7 +7,7 @@ import {useFonts} from 'expo-font'
 function WelcomeScreen(props) {
     return (
        <View style={styles.container}>
-           <Text style={styles.title}>TrackFit</Text>
+           <Text style={styles.title}>TRACKFIT</Text>
            <Text style={styles.motto}>Your Personal Fitness Journal</Text>
            <StatusBar style = 'light'/>
        </View>
